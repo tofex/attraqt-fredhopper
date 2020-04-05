@@ -1,7 +1,7 @@
 {
   "name": "attraqt/fredhopper",
   "description": "PHP API implementation for Attraqt Fredhopper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/tofex/attraqt-fredhopper",
   "license": "MIT",
   "authors": [

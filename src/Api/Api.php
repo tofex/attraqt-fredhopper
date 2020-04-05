@@ -128,7 +128,10 @@ abstract class Api
         $client = static::getHttpClient();
 
         $client->setAdapter($adapter);
-        $client->setAuth($user, $password, $type);
+
+        if ($user && $password && $type) {
+            $client->setAuth($user, $password, $type);
+        }
     }
 
     /**
