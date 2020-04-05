@@ -1,0 +1,25 @@
+{
+  "name": "attraqt/fredhopper",
+  "description": "PHP API implementation for Attraqt Fredhopper",
+  "version": "1.0.0",
+  "homepage": "https://github.com/tofex/attraqt-fredhopper",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Tofex UG",
+      "homepage": "http://www.tofex.de/"
+    }
+  ],
+  "require": {
+    "php": ">=5.6.0",
+    "laminas/laminas-http": "~2.11.0",
+    "laminas/laminas-json": "~3.1.0",
+    "laminas/laminas-xml": "~1.2.0",
+    "tofex/validator-xml": "~1.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Attraqt\\Fredhopper\\": "src"
+    }
+  }
+}
