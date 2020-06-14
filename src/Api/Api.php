@@ -36,7 +36,7 @@ abstract class Api
     const PREPUBLISHED = 'prepublished';
 
     /** @var Client */
-    private static $httpClient;
+    protected static $httpClient;
 
     /** @var string */
     protected $service;
